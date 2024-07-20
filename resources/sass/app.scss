@@ -1,0 +1,112 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+* {
+  font-family: 'Cairo';
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.inspection_card {
+  border-radius: 44px;
+  width: 360px;
+  height: 480px;
+  border: 4px solid;
+  margin: 0 auto;
+}
+
+.inspection_header {
+  background-color: #60a544;
+  color: #fff;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 36px 36px 0 0;
+  -webkit-border-radius: 36px 36px 0 0;
+  -moz-border-radius: 36px 36px 0 0;
+  -ms-border-radius: 36px 36px 0 0;
+  -o-border-radius: 36px 36px 0 0;
+}
+
+.valid {
+  background-color: #60a544;
+}
+
+.unknown {
+  background-color: #ebb21e;
+}
+
+.expired {
+  background-color: #ac2b28;
+}
+.valid_border {
+  border-color: #60a544;
+}
+
+.unknown_border {
+  border-color: #ebb21e;
+}
+
+.expired_border {
+  border-color: #ac2b28;
+}
+.inspection_header  img{
+  width: 37px;
+  height: 37px;
+  margin-left: 16px;
+}
+
+.inspection_header svg {
+  margin-left: 16px;
+}
+
+.card-body {
+  font-size: 16px;
+  padding: 36px 30px;
+}
+
+.card-body > div {
+  display: flex;
+  border-bottom: 1.5px solid #eeee;
+  margin-bottom: 10px;
+}
+
+.card-body > div div:first-of-type {
+  width: 124px;
+  font-size: 16px;
+  color: #8c8c8c;
+  margin-bottom: .5rem;
+}
+
+.card-body > div div:last-of-type {
+  font-weight: 500;
+  width: 146px;
+}
+
+.logo_container {
+  text-align: center;
+}
+
+.logo_container img {
+  width: 125px;
+  height: 184px;
+}
+
+.logos_container {
+  text-align: center;
+  margin-top: 7em;
+}
+
+.logos_container img:first-of-type{
+  width: 170px;
+  margin-left: 90px;
+}
